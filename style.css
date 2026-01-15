@@ -4,7 +4,7 @@
     --bg: #ecf009;
     --white: #fff;
     --border: 0.1rem solid rgb(228, 224, 30);
-    font-size: 10px;
+    font-size: 10px
 }
 
 * {
@@ -45,7 +45,7 @@ section {
     display: flex;
     padding-top: 2.7rem;
     padding-bottom: 2.7rem;
-}
+ }
 
 .navbar a {
     margin: 3rem;
@@ -86,10 +86,9 @@ section {
     background: #012a68;
 }
 
-/* Ajuste apenas do fundo da home */
 .home-container {
     min-height: 100vh;
-    background: url("https://mateusalmeida29.github.io/Site-Mateus/img/fundo.png") no-repeat center center;
+    background: url("./img/fundo.png");
     background-size: cover;
     background-position: center;
 }
@@ -97,18 +96,18 @@ section {
 .home-container section {
     min-height: 100vh;
     display: flex;
-    margin-top: 40px; /* removido excesso de margem que escondia o fundo */
+    margin-top: 50px;
 }
 
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; /* centraliza o container */
     padding: 0 20px;
 }
 
 .content {
-    max-width: 100%; /* antes era 100vh, agora é correto */
+    max-width: 100%;
 }
 
 .content h1 {
@@ -125,7 +124,10 @@ section {
     padding: 1rem 0;
 }
 
-/* Títulos */
+
+
+
+
 .title {
     border-bottom: 0.1rem solid var(--black);
     font-size: 3rem;
@@ -134,30 +136,29 @@ section {
     text-transform: uppercase;
     margin-bottom: 4rem;
 }
-
 .title span {
     font-size: 3rem;
     color: #fff;
     text-transform: uppercase;
 }
 
-/* Sobre */
+
+
+
+
 .about .row {
     display: flex;
     align-items: center;
     background-color: #5c5c5c60;
     gap: 1.5rem;
 }
-
 .about .row .content {
-    padding: 2rem; /* corrigido pad -> padding */
+    pad: 2rem;
 }
-
 .about .row .content h3 {
     font-size: 3rem;
     color: #ffffff;
 }
-
 .about .row .content p {
     font-size: 1.6rem;
     color: #fcfcf9;
@@ -165,82 +166,91 @@ section {
     line-height: 1.8;
 }
 
-/* Imagem remoto */
+
+
+
 .img-remoto {
-    background: url("./img/remoto.png") no-repeat center center;
+    background: url("./img/remoto.png");
+    background-position: center;
     background-size: cover;
 }
-
 .img-remoto section {
     display: flex;
     align-items: center;
     min-height: 100vh;
 }
 
-/* Avaliações */
+
+
+
+
+
 .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
-
 .box-container .box {
     text-align: center;
     padding: 5rem;
     cursor: pointer;
 }
 
+
+
+
+
+
 .review .box-container .box {
     border: var(--border);
     text-align: center;
     padding: 3rem 2rem;
 }
-
 .review .box-container .box p {
     font-size: 1.5rem;
     color: #ffffff;
     padding: 2rem 0;
     line-height: 1.8;
 }
-
 .review .box-container .box h3 {
     color: #fff;
     font-size: 2rem;
     margin: 1rem 0;
 }
-
 .review .box-container .box .user {
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
 }
 
-/* Endereço */
+
+
+
+
+
 .address {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-/* Instagram */
+
+
+
+
+
 .instagram {
     text-align: center;
 }
-
 .instagram .icons-instagram {
     padding: 1rem 0;
 }
-
 .instagram .icons-instagram img {
     margin: 0.3rem;
     cursor: pointer;
     border-radius: 50%;
     padding: 1rem;
 }
-
 .instagram .icons-instagram img:hover {
     background-color: var(--main-color);
 }
-
-
-

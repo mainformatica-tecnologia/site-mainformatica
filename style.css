@@ -87,6 +87,7 @@ section {
 }
 
 .home-container {
+    min-height: 100vh;
     background: url("../img/fundo.png");
     background-size: cover;
     background-position: center;
@@ -254,3 +255,4 @@ section {
     background-color: var(--main-color);
 
 }
+

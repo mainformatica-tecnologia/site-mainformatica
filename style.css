@@ -214,6 +214,13 @@ section {
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
+  .home-container {
+    background-position: top center;
+  }
+}
+
+
+@media (max-width: 768px) {
     .about .row {
         flex-direction: column;
         text-align: center;
@@ -232,3 +239,4 @@ section {
         font-size: 1.4rem;
     }
 }
+

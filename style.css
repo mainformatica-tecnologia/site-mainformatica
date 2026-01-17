@@ -163,18 +163,36 @@ section {
     padding: 3rem 2rem;
 }
 
-.box p,
-.box h3 {
+.box p { /*comentario*/
     color: #ffffff;
     font-size: 1.5rem;
 }
 
-.foto {
+.box h3 {  /*titulo nome*/
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+
+.box h3:hover {
+    cursor: pointer;
+}
+
+
+.foto { /*foto clientes*/
     width: 150px;
     height: 150px;
     border-radius:50%;
     margin: 2rem auto;
 }
+
+.foto:hover {
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
 
 /* MAPA */
 .address {
@@ -245,4 +263,3 @@ section {
         font-size: 1.4rem;
     }
 }
-
